@@ -1,0 +1,15 @@
+{
+  "name": "prueba",
+  "version": "1.0.0",
+  "description": "5 ejemplos",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome:windows": "testcafe chrome Prueba/Suites/Windows.js",
+    "test:chrome:linux": "testcafe chrome Prueba/Suites/Linux.js",
+    "test:chrome:macos": "testcafe chrome Prueba/Suites/MacOS.js",
+    "test:chrome:valor": "testcafe chrome Prueba/Suites/Valor.js",
+    "test:chrome:nulo": "testcafe chrome Prueba/Suites/Nulo.js"
+  },
+  "author": "Victor D",
+  "license": "ISC"
+}
